@@ -4,7 +4,5 @@
 
 This is a Telegram bot written in Python for broadcasting newsfeed from VK with ad blocking.
 
--- 
--- 
 
 ![image](https://user-images.githubusercontent.com/76232618/205313200-51362f08-07f2-43f7-90e1-90ab5abf3c9c.png)
