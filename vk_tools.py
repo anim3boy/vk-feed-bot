@@ -14,7 +14,7 @@ def get_name_by_id(
 
 
 def fix_bad_vk_links(text: str):
-    search_pattern = r"\[(?P<url_ending>[0-9a-z]{3,32})\|(?P<url_name>[^]|]*)\]"
+    search_pattern = r"\[(?P<url_ending>[0-9a-z]{3,32})\|(?P<url_name>[^]]*)\]"
     html_link_pattern = r'<a href="https://vk.com/\g<url_ending>">\g<url_name></a>'
     return re.sub(
         search_pattern,
